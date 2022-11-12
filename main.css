@@ -96,7 +96,7 @@ header > .bottom svg{
 /* main Start */
 
 main{
-    height: 756px;
+    height: 836.19px;
     background-image: url("./img/main_visual.png");
     background-position: center;
     background-size: cover;
@@ -126,6 +126,7 @@ main .label .description{
 
 main .label .link{
     margin-top: 83.5px;
+    font-weight: 700;
 }
 
 main .label .link a{
@@ -145,10 +146,57 @@ main .label .link a:last-child{
     background-color: #0078d6;
 }
 
+div.section_top{
+    height: 196px;
+
+    background-color: #FFF;
+}
+
+div.section_top h2{
+    height: 60px;
+    font-size: 48px;
+    margin-left: 128.875px;
+    padding: 88px 20px 48px 20px;
+}
 
 section.section1{
     background-color: yellow;
-    height: 748.39px;
+    height: 749.094px;
+    padding-left: 200px;
+}
+
+section.section1 .section_img img{
+    width: 361.47px;
+    height: 271.09px;
+}
+
+section.section1 .section_item{
+    display: inline-block;
+    /* justify-content: flex-start; */
+    width: 361.469;
+    height: 615.094;
+    padding: 4px;
+    text-align: left;
+}
+
+section.section1 .section_content{
+    width: 297.469px;
+    height: 272px;
+    padding: 24px 32px 48px 32px;
+}
+
+section.section1 .section_content span, a{
+    display: block;
+    margin: px 0;
+}
+
+section.section1 .section_content span:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section.section1 .section_content span:last-child{
+    font-size: 18px;
 }
 
 section.section2{
